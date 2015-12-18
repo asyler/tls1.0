@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/asyler/AndroidStudioProjects/TLS3/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/libs/internal_impl-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
+        <dex dex="/home/asyler/AndroidStudioProjects/TLS3/app/build/intermediates/pre-dexed/release/internal_impl-23.1.0-b7fc9e0ac769a42d4c2e03da2108570d81fda78f.jar" />
+    </item>
+    <item
+        jar="/home/asyler/AndroidStudioProjects/TLS3/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="/home/asyler/AndroidStudioProjects/TLS3/app/build/intermediates/pre-dexed/release/classes-c9588196f5ba80c8f1097f8dceb8d4415e90669a.jar" />
+    </item>
+    <item
+        jar="/home/asyler/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.0/support-annotations-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
+        <dex dex="/home/asyler/AndroidStudioProjects/TLS3/app/build/intermediates/pre-dexed/release/support-annotations-23.1.0-b8574be9eb5812a360cbf1d9e909f57117c73eaa.jar" />
+    </item>
+    <item
+        jar="/home/asyler/AndroidStudioProjects/TLS3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="57ae0d750ff83f0c738d21720224ac7ea866a094">
+        <dex dex="/home/asyler/AndroidStudioProjects/TLS3/app/build/intermediates/pre-dexed/release/classes-7443fddb377acdc682b6b8c9145da71a5acefe28.jar" />
+    </item>
+
+</items>

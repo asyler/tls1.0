@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:paddingLeft="5dp"
+                android:text="test"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_columnWeight="0.7">
+            </TextView>
+
+            <TextView
+                android:id="@+id/raw_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:paddingLeft="5dp"
+                android:text="test"
+                android:layout_below="@+id/value"
+                android:layout_alignParentStart="true"
+                android:layout_row="1"
+                android:layout_column="0"
+                android:layout_columnWeight="0.7" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/label"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:textSize="16sp"
+            android:paddingRight="5dp"
+            android:text="test"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="false"
+            android:layout_alignParentTop="true"
+            android:layout_alignBottom="@+id/raw_value"
+            android:layout_alignParentBottom="false"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_rowSpan="2"
+            android:layout_columnWeight="0.3"
+            android:width="150sp"
+            android:textAlignment="textEnd"
+            android:layout_marginTop="5sp">
+        </TextView>
+
+    </LinearLayout>
+
+</RelativeLayout>

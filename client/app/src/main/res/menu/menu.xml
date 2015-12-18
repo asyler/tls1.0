@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- "Mark Favorite", should appear as action button if possible -->
+    <item
+        android:id="@+id/action_select_off"
+        android:icon="@android:drawable/checkbox_off_background"
+        android:title="@string/delete"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/action_select_on"
+        android:icon="@android:drawable/checkbox_on_background"
+        android:title="@string/delete"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/action_delete"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="@string/delete"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/action_add"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="@string/add"
+        app:showAsAction="always"
+        />
+
+</menu>
